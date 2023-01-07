@@ -46,20 +46,22 @@ git core.attributesfile:
 - list branches sorted by date
 > git for-each-ref --sort=committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
 
+- create branch from any commit hash
+> git branch <new-branch-name> <SHA>
+
 ### Commits
 - show message for specified commit
 > git log --format=%B -n 1 &lt;hash&gt;
 
 - amend a commit
   - if changing content, make desired changes first; then
-  > git amend
   > git commit --amend [--no-edit]<br><br>
     - edit commit message if indicated
 
 - unstage a commit
 > git rm --cached <filename>
 
-- squash last N commits
+- squash/pick last N commits
 > git rebase -i HEAD~N
 
 ### Stashes
@@ -126,7 +128,7 @@ We use the `diff3` style of conflict markers
   >>>>>>> theirs
   ```
 
-- show the commits in either side or conflict
+- show the commits in either side of conflict
 Show the commits in either side of the merge that touches a file that’s currently conflicted
 > git log --oneline --left-right --merge
 
