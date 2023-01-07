@@ -9,8 +9,8 @@ Traditionally, [Semantic Versioning](https://semver.org) has been used.
   - so: for versions committed at the end of a month:
     - versions committed after 18:00CST or 19:00CDT on the last day of the month use the next month<br/><br/>
 - release names
-  - releases are initially created in ZenHub before their release date is known
-  - use just vM.m when creating a release
+  - releases are initially created in GitHub before their release date is known
+  - use just vM.m (Major.minor) when creating a release
   - rename to full version number when the release is committed
 ## API Versioning
 - We may eventually have an API to support. Since we expect our software to be OpenSource by then,
