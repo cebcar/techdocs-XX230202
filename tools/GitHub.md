@@ -67,8 +67,9 @@ GitHub : ‘cebcar’ : New
   - [-] Allow rebase merging <br><br>
 
 - repository settings:
-  - [+] Projects on
-  - [-] Preserve this repository; intended for long-term preservation of shared open-source code <br><br>
+  - turn off:
+    - Projects; we use ZenHub projects
+    - Preserve this repository; intended for long-term preservation of shared open-source code <br><br>
 
 - .gitignore
   - do not ignore .gitignore
@@ -79,8 +80,7 @@ GitHub : ‘cebcar’ : New
 
 - README.md: check header
 
-### OAuth Tokens for GitHub
-- OAuth Tokens
+### OAuth Tokens
 *from [Access Tokens @ oauth.com](https://www.oauth.com/oauth2-servers/access-tokens/)*
 ``` text
 Access tokens are the thing that applications use to make API requests on behalf of a user.
@@ -115,18 +115,16 @@ Access tokens must be kept confidential in transit and in storage.
 #### Access GitHub Developer Settings
 - from Developer avatar at top right of any GitHub screen: Settings > Developer settings
 
-### Issues
-- reference an issue from a commit without closing, ...: #issuenbr
+#### Delete an Issue
+  - ***Warning***: the only reason we now know for deleting a GitHub issue is<br/>
+  to remove an unwanted issue from a ZenHub Roadmap
 
-- Delete an Issue
-  - ***Warning***: the only reason we now know for deleting a GitHub issue is to remove an unwanted issue from a ZenHub Roadmap
+- reference: [ZenHub: Deleting GitHub Issues or ZenHub Epics](https://help.zenhub.com/support/solutions/articles/43000480335-deleting-github-issues-or-zenhub-epics)
 
-  - reference: [ZenHub: Deleting GitHub Issues or ZenHub Epics](https://help.zenhub.com/support/solutions/articles/43000480335-deleting-github-issues-or-zenhub-epics)
-
-  - from GitHub
-    - to enable/disable issue deletion:
-      - under personal icon at far top right
-        - select 'Your Organizations' and switch to cebcar account
+- from GitHub
+  - to enable/disable issue deletion:
+    - under personal icon at far top right
+      - select 'Your Organizations' and switch to cebcar account
       - left sidebar: select Member Privileges
       - toggle "Allow members to delete issues for this organization"
     - so:
