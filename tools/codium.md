@@ -1,6 +1,6 @@
 #Codium
 *VS Code: Open-source code editor*
-  (VS Codium is a binary releases of VS Code without MS branding/telemetry/licensing)
+  (VS Codium: binary releases of VS Code without MS branding/telemetry/licensing)
 
 ## Configuration
 - enable tab completion
