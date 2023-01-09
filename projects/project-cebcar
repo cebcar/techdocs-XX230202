@@ -1,0 +1,24 @@
+## Project @cebcar
+
+GitHub Project @cebcar is a top-level view of our current work.
+&nbsp;&nbsp;&nbsp;&nbsp;*'@' is the conventional starting character for a GitHub project*
+- tracks foundational development in Repositories:
+  - sysadmin *core configuration, scripting, management*
+  - techdocs *technical documentation*
+  - webdev *foundation for web development*
+
+- @cebcar displays a list of the items/issues in our currently active GitHub Repositories
+  - initial Views Epics and Milestones are available to display, group, and sort Items.
+ 
+- Rename old project to @cebcar-YYMM if it is retired.
+
+## @cebcar Home Screen
+
+@cebcar's main screen has top-level views Epics and Milestones
+- each View is grouped and sorted according to its title, eg. view 'Epics' is sorted by value in field 'epic'.
+
+default view: Epics
+
+### Fields
+title, labels, status, priority, type, at, epic, milestone, iteration, repository, seq (hide: Assignee)
+- Repository: 'at' represents intended repo; 'repository' is added automatically by GitHub when an item is converted to an issue
