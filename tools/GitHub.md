@@ -37,11 +37,11 @@ Authenticate with GitHub via SSH
 ```
 - add GitHub SSH private key to SSH Agent
 ```
-ssh --add -K ~/.ssh/id_ed25519
+ssh --add -K ~/.ssh/id_ed25519[.pub]?
 ```
 - copy key to pasteboard
 ```
-pbcopy < ~/.ssh/id_ed25519.pub
+pbcopy < ~/.ssh/id_ed25519[.pub]?
 ```
 - add SSH private key to GitHub
 
