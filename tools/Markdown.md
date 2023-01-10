@@ -1,6 +1,23 @@
 # Markdown
 
+### Table Syntax
+``` plaintext
+|Header1 |Header2  | Header3|
+--- | --- | ---|
+|data1|data2|data3|
+|data11|data12|data13|
+```
+generates
+|Header1 |Header2  | Header3|
+--- | --- | ---|
+|data1|data2|data3|
+|data11|data12|data13|
+
+### Sample Link
+ [Tuxedo DevOps](https://github.com/cebcar/Tuxedo/blob/main/TechDocs/DevOps/)
+
 ## IntelliJ Configuration for Markdown
+*Live Templates from this section may still have value*
 
 #### Editor
 ##### General
@@ -16,7 +33,7 @@
 ##### Inspections
 - [x] Unresolved file references; Warning
 
-##### Live Templates
+##### Live Templates (JetBrains - obsolete)
 ##### cd.tool
 - tool document with profile
   - with $INDENT$=(non-breaking space)x8
