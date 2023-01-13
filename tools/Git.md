@@ -112,6 +112,9 @@ git core.attributesfile:
 - Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
 
+### Detached HEAD
+[A Detached HEAD in Git: What it is And How to Fix it](https://alphaefficiency.com/git-detached-head)
+
 #### diff3
 We use the `diff3` style of conflict markers
 - shows all 4 of before/after, ours/theirs
