@@ -35,8 +35,16 @@ git core.attributesfile:
 > git push --set-upstream (-u) origin &lt;branch&gt;
 
 ### Tags
-- create annotated tag:
-> git tag -a &lt;tagName&gt; -m &lt;comment&gt;
+- create annotated tag
+> git tag -a -m &lt;comment&gt; &lt;tagName&gt; [ commit | object ]<br>
+
+        see [Policies: Versioning](https://github.com/cebcar/techdocs/blob/main/policies)
+
+- list existing tags with annotations
+> git tag -n
+
+- get hash for a commit tag
+> git rev-list -n 1 $TAG<br>
 
 ### Branches
 - Push Remote Branch
